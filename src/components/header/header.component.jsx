@@ -27,6 +27,7 @@ const Header = ({currentUser, hidden}) => (
             <CartIcon />
         </div>        
         {
+            //if hidden is true, display nothing, else display the cart dropdown
             hidden ? null : <CartDropdown />
         }
     </div>
